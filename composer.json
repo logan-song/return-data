@@ -17,6 +17,10 @@
         {
             "name": "dunkul",
             "email": "dunkul@naver.com"
+        },
+        {
+            "name": "logan-song",
+            "email": "jongno@kakao.com"
         }
     ],
     "autoload": {
