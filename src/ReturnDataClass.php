@@ -1,6 +1,6 @@
 <?php
 
-namespace Dunkul\ReturnData;
+namespace LoganSong\ReturnData;
 
 use Illuminate\Http\Request;
 

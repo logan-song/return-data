@@ -1,10 +1,10 @@
 <?php
 
-namespace Dunkul\ReturnData;
+namespace LoganSong\ReturnData;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\ServiceProvider;
-use Dunkul\ReturnData\ReturnDataClass;
+use LoganSong\ReturnData\ReturnDataClass;
 
 class ReturnDataServiceProvider extends ServiceProvider
 {
