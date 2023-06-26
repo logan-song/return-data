@@ -89,6 +89,10 @@ class ReturnDataClass
           'data' => $this->data,
           'error' => $this->message,
           'condition' => $this->condition,
+          'locale' => [
+            'timezone' => config('app.timezone'),
+            'datetime' => now()->tz(config('app.timezone'))->format('Y-m-d H:i:s')
+          ]
         ],
         isset($this->request->access_token) ? ['access_token' => $this->request->access_token] : [],
       ),
